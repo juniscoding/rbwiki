@@ -5,3 +5,7 @@
 a:hover {
     @apply text-red-900
 }
+
+p::selection {
+    @apply bg-red-900 text-white
+}
