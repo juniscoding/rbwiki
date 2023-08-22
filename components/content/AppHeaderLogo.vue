@@ -37,7 +37,7 @@ const title = computed(() => config.value.header?.title || config.value.title)
     <!-- Only title -->
     <span
       v-else
-      class="title rb-title"
+      class="title rb-title-decor"
     >
       {{ title }}
     </span>
@@ -76,7 +76,7 @@ css({
       fontWeight: '{docus.header.title.fontWeight}',
       color: '{docus.header.title.color.static}',
       '&:hover': {
-        color: '{docus.header.title.color.hover}',
+        color: '{text-red-900}',
       }
     }
   }

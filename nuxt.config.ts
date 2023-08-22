@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxthq/ui'
   ],
 
   googleFonts: {
@@ -18,6 +19,7 @@ export default defineNuxtConfig({
   },
 
   css: [
-    '~/assets/main.css'
+    '~/assets/css/main.css',
+    '~/assets/css/tailwind.css'
   ]
 })

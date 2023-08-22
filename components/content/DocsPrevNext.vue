@@ -86,7 +86,7 @@ css({
       '&:hover': {
         backgroundColor: '{color.gray.50}',
         borderColor: '{color.gray.50}',
-        color: '{color.primary.500}',
+        color: '{color.red.700}'
       },
       '@dark': {
         '&:hover': {

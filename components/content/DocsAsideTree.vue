@@ -139,9 +139,9 @@ css({
           borderColor: '{elements.border.primary.hover}'
         },
         '&.active': {
-          borderColor: '{color.primary.400}',
+          borderColor: '{color.red.700}',
           '@dark': {
-            borderColor: '{color.primary.600}'
+            borderColor: '{color.red.700}'
           },
         },
         '&.has-children': {
@@ -195,13 +195,13 @@ css({
       lineHeight: '{text.sm.lineHeight}',
       color: '{color.gray.500}',
       '&:hover': {
-        color: '{color.gray.900}',
+        color: '{color.red.700}',
       },
       '@dark': {
         '&:not(.active)': {
           color: '{color.gray.400}',
           '&:hover': {
-            color: '{color.gray.50}',
+            color: '{color.red.700}',
           }
         }
       },
@@ -209,7 +209,7 @@ css({
         paddingLeft: '{space.4}'
       },
       '&.active': {
-        color: '{color.primary.500}',
+        color: '{color.red.700}',
         fontWeight: '{fontWeight.medium}'
       },
       '.content': {

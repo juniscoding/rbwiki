@@ -45,17 +45,17 @@ defineProps({
           </ContentSlot>
         </p>
 
-        <div v-if="$slots.extra" class="extra">
+        <div v-if="$slots.extra" class="extra ">
           <ContentSlot :use="$slots.extra" unwrap="p" />
         </div>
 
-        <div class="actions">
+        <div class="actions ">
           <ContentSlot v-if="$slots.actions" :use="$slots.actions" unwrap="p" />
           <template v-else>
             <ButtonLink v-if="cta" class="cta" bold size="medium" :href="(cta[1] as any)">
               {{ cta[0] }}
             </ButtonLink>
-            <a v-if="secondary" :href="(secondary[1] as any)" class="secondary">
+            <a v-if="secondary" :href="(secondary[1] as any)" class="secondary ">
               {{ secondary[0] }}
             </a>
           </template>
@@ -158,9 +158,9 @@ css({
         },
         '.secondary': {
           fontWeight: '{fontWeight.medium}',
-          color: '{elements.text.secondary.color.static}',
+          color: '{color.red.700}',
           '&:hover': {
-            color: '{elements.text.secondary.color.hover}'
+            color: '{color.red.700}'
           }
         }
       }

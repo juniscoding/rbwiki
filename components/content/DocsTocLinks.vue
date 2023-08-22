@@ -79,15 +79,15 @@ css({
         paddingRight: '{space.3}'
       },
       '&:not(.active):hover': {
-        color: '{color.gray.900}',
+        color: '{color.red.700}',
       },
       '@dark': {
         '&:not(.active):hover': {
-          color: '{color.gray.400}',
+          color: '{color.red.700}',
         },
       },
       '&.active': {
-        color: '{color.primary.500}'
+        color: '{color.red.700}'
       }
     }
   }

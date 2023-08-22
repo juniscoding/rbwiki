@@ -13,10 +13,6 @@ const onClick = () => element.value.querySelector('button').click()
     <span class="content">
       <Icon name="heroicons-outline:search" />
       <span>Search</span>
-      <span>
-        <kbd>⌘</kbd>
-        <kbd>K</kbd>
-      </span>
     </span>
   </button>
 </template>
